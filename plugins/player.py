@@ -169,13 +169,12 @@ async def play(_, message: Message):
         duration = round(audio.duration / 60)
         views = "Locally added"
 
-        keyboard = InlineKeyboardMarkup(
+       keyboard = InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton(((
-                             InlineKeyboardButton(
-                            text="𝗛𝗘𝗛𝗘 𝗦𝗢𝗝𝗔 𝗩𝗥𝗢 ♡ᗯTᖴ♡ᴹᴶᴬᴷ ᴷᴿᴿᴬ ᴴᵁ "
-                            url=f"https://t.me/GIRLS_BOYS_CHATTING10")
+                        InlineKeyboardButton(
+                            text="💞𝐒𝐔𝐌𝐏𝐎𝐑𝐓 𝐏𝐋𝐎𝐗𖦊𖦊",
+                            url=f"https://t.me/girls_boys_chatting10")
 
                 ]
             ]
